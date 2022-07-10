@@ -11,33 +11,33 @@
         <md-icon>dashboard</md-icon>
         <p>Dashboard</p>
       </sidebar-link>
-      <sidebar-link to="/user">
+      <sidebar-link to="/post">
         <md-icon>person</md-icon>
-        <p>User Profile</p>
+        <p>Post</p>
       </sidebar-link>
-      <sidebar-link to="/table">
+      <sidebar-link to="/author">
         <md-icon>content_paste</md-icon>
-        <p>Table list</p>
+        <p>Author</p>
       </sidebar-link>
-      <sidebar-link to="/typography">
+      <sidebar-link to="/comment">
         <md-icon>library_books</md-icon>
-        <p>Typography</p>
+        <p>Comment</p>
       </sidebar-link>
-      <sidebar-link to="/icons">
+      <sidebar-link to="/advertisement">
         <md-icon>bubble_chart</md-icon>
-        <p>Icons</p>
+        <p>Advertisement</p>
       </sidebar-link>
-      <sidebar-link to="/maps">
+      <sidebar-link to="/comment">
         <md-icon>location_on</md-icon>
-        <p>Maps</p>
+        <p>Comment</p>
       </sidebar-link>
-      <sidebar-link to="/notifications">
+      <sidebar-link to="/review">
         <md-icon>notifications</md-icon>
-        <p>Notifications</p>
+        <p>Review</p>
       </sidebar-link>
-      <sidebar-link to="/upgrade" class="active-pro">
+      <sidebar-link to="/settings" class="active-pro">
         <md-icon>unarchive</md-icon>
-        <p>Upgrade to PRO</p>
+        <p>Settings</p>
       </sidebar-link>
     </side-bar>
 
