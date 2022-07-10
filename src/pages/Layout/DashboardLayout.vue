@@ -75,7 +75,7 @@ export default {
   data() {
     return {
       sidebarBackground: "green",
-      sidebarBackgroundImage: require("@/assets/img/sidebar-2.jpg"),
+      sidebarBackgroundImage: require("@/assets/img/sidebarnews.png"),
     };
   },
 };
