@@ -31,13 +31,13 @@ export default {
       selected: [],
       users: [
         {
-          name: 'Sign contract for "What are conference organizers afraid of?"',
+          name: 'President took over the charge of education ministry"',
         },
         {
-          name: "Lines From Great Russian Literature? Or E-mails From My Boss?",
+          name: "France to go for Euro championship",
         },
         {
-          name: "Flooded: One year later, assessing what was lost and what was found when a ravaging rain swept through metro Detroit",
+          name: "Water problem increases in Africa",
         },
       ],
     };
