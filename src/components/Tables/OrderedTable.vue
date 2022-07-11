@@ -4,9 +4,9 @@
       <md-table-row slot="md-table-row" slot-scope="{ item }">
         <md-table-cell md-label="ID">{{ item.id }}</md-table-cell>
         <md-table-cell md-label="Name">{{ item.name }}</md-table-cell>
-        <md-table-cell md-label="Salary">{{ item.salary }}</md-table-cell>
-        <md-table-cell md-label="Country">{{ item.country }}</md-table-cell>
-        <md-table-cell md-label="City">{{ item.city }}</md-table-cell>
+        <md-table-cell md-label="Posts">{{ item.posts }}</md-table-cell>
+        <md-table-cell md-label="Designation">{{ item.designation }}</md-table-cell>
+        <md-table-cell md-label="Contact">{{ item.contact }}</md-table-cell>
       </md-table-row>
     </md-table>
   </div>
@@ -27,32 +27,34 @@ export default {
       users: [
         {
           id: 1,
-          name: "Dakota Rice",
-          salary: "$36,738",
-          country: "Niger",
-          city: "Oud-Turnhout",
+          name: "Veronika Ralph",
+          posts: "34",
+          designation: "Senior reporter",
+          contact: "+428912965",
         },
         {
           id: 2,
-          name: "Minerva Hooper",
-          salary: "$23,738",
-          country: "Curaçao",
-          city: "Sinaai-Waas",
+          name: "Christina Martinez",
+          posts: "42",
+          designation: "Reporter",
+          contact: "+42323934543",
         },
         {
           id: 3,
-          name: "Sage Rodriguez",
-          salary: "$56,142",
-          country: "Netherlands",
-          city: "Overland Park",
+          name: "Hery Chiz",
+          posts: "23",
+          designation: "Senior reporter",
+          contact: "+4232393445",
         },
         {
           id: 4,
-          name: "Philip Chaney",
-          salary: "$38,735",
-          country: "Korea, South",
-          city: "Gloucester",
+          name: "Megh Hasier",
+          posts: "34",
+          designation: "Senior reporter",
+          contact: "+42323934323",
         },
+        
+
       ],
     };
   },
