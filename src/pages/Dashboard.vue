@@ -165,11 +165,11 @@
       >
         <md-card>
           <md-card-header data-background-color="orange">
-            <h4 class="title">Author Status</h4>
-            <p class="category">Registered Authors on July 2022</p>
+            <h4 class="title">Journalist Information</h4>
+            <p class="category">Information on July 22</p>
           </md-card-header>
           <md-card-content>
-            <ordered-table table-header-color="orange"></ordered-table>
+            <ordered-table table-header-color="black"></ordered-table>
           </md-card-content>
         </md-card>
       </div>
@@ -178,17 +178,17 @@
       >
         <nav-tabs-card>
           <template slot="content">
-            <span class="md-nav-tabs-title">Tasks:</span>
+            <span class="md-nav-tabs-title">No:</span>
             <md-tabs class="md-success" md-alignment="left">
-              <md-tab id="tab-home" md-label="Bugs" md-icon="bug_report">
+              <md-tab id="tab-home" md-label="Post" md-icon="bug_report">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
 
-              <md-tab id="tab-pages" md-label="Website" md-icon="code">
+              <md-tab id="tab-pages" md-label="Edit" md-icon="code">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
 
-              <md-tab id="tab-posts" md-label="server" md-icon="cloud">
+              <md-tab id="tab-posts" md-label="No" md-icon="cloud">
                 <nav-tabs-table></nav-tabs-table>
               </md-tab>
             </md-tabs>
